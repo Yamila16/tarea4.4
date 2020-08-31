@@ -4,190 +4,97 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Confiteria.com</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    @media only screen and (min-width: 500px) {
-      body {
-        background-color: pink;
-      }
-
-      div {
-        text-align: center;
-      }
-
-      #postres,
-      #dulces,
-      #tortas {
-        border: 2px solid white;
-        border-radius: 5px;
-        font-size: 15px;
-        font-family: sans-serif;
-      }
-    }
-
-    @media only screen and (max-width:800px) {
-
-      /* para tablets: */
-      body {
-        background-color: #FAE5D3;
-      }
-
-      #postres,
-      #dulces,
-      #tortas {
-        display: inline-block;
-        margin: 2px;
-        width: 100%;
-        padding: 0;
-        background: #F4F6F6;
-        border: 2px solid black;
-        font-family: Impact,Arial, Helvetica, sans-serif;
-      }
-    }
-
-    @media screen and (min-width: 1025px) {
-
-      #dulces,
-      #tortas,
-      #postres {
-        display: inline-block;
-        background-color: #C39BD3;
-        width: 50%;
-        border-radius: 5px;
-        border: 2px solid black;
-        margin: 2px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-      }
-
-      .menuitem {
-        width: 30px;
-        font-size:20px ;
-        text-align: center;
-        border: 1px solid black;
-        background-color: #17202A;
-        color: white;
-      }
-
-      body {
-        background: gainsboro;
-        background-image: url(https://img2.freepng.es/20190323/kko/kisspng-cute-cupcakes-torta-drawing-not-my-art-5c95afdf59b381.6320112315533137593674.jpg);
-      }
-
-      #tortas {
-        float: right;
-      }
-
-      .right {
-        background-color: #EC7063;
-        font-size: 20px;
-        font-family: Impact, sans-serif;
-      }
-    }
-  </style>
-  
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
-  <a id="arriba"></a>
-  <div id="inicio" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;overflow:auto">
-
-    <p class="header">
-    <p style="background:#CD6155; width:100%;font-family: 'Times New Roman', Times, serif; font-size: 50px;"
-      align="center">CONFITERIA</p>
-    </p>
+   <header id="header">
+    <p style="font-size: 40px;">CONFITERIA</p>
+    <p>Si la Vida no es Dulce, Endulzalo tu mismo🍰🧁</p>
+  </header>
     <hr>
-    <nav class="menu">
+    <nav align="center">
       <a href="#postres" class="menuitem">Postres</a>
       <a href="#tortas" class="menuitem">Tortas</a>
       <a href="#dulces" class="menuitem">Dulces</a>
-      <a href="#contacto" class="menuitem">Contactos</a>
+      <a href="#footer" class="menuitem">Contactos</a>
     </nav> <br>
-    <main class="main" class="right">
-    <p ALIGN=center class="right"><b>Si la Vida no es Dulce, Endulzalo tu mismo🍰🧁 <br>
+    <div class="right" align="center">
+    <p><b>
         Confiteria Tia Nidia ha
         aportado de generaci&oacute;n en generaci&oacute;n su dulzura a la felicidad de muchos, y
         gracias a la innovaci&oacute;n permanente se renueva de acuerdo a las necesidades y gustos de sus clientes.
         Integrando a sus h&aacute;bitos la dulce costumbre de acercarse a nuestras tiendas y disfrutar de nuestros
         servicios.</b>
-    </p>
-    <p align="center">
+    <p>
       <img
         src="https://estaticos.miarevista.es/media/cache/1000x_thumb/uploads/images/gallery/5a0ebf9e5bafe84207064c33/principal_0.jpg"
         alt="Confiteria" style="max-width:40%;height:auto;">
     </p>
-  </main>
+  </div>
     <section class="right">
-    <h2 class="right">Entre los productos que ofrecemos podr&aacute;s encontrar</h2>
-    <article class="right">- Tortas y Tartas Dulces <br>
+    <h2>Entre los productos que ofrecemos podr&aacute;s encontrar</h2>
+    <p>- Tortas y Tartas Dulces <br>
       - Mini Tortas y Mini Cheese Cakes <br>
       - Mini Dulces <br>
       - Budines <br>
       - Budines con Frutos secos <br>
-      - Chocolates "Ganache Chocolatier"</article>
+      - Chocolates "Ganache Chocolatier"</p>
+  </section>
+<div id="postres">
+    <h2>POSTRES</h2>
+    <section>
+      Esta tarta de lim&oacute;n light tiene lo mejor de este postre. Para los amantes de esta tarta con un poco de
+      merengue
+      por encima, es una tarta baja en calor&iacute;as.
+      <p>
+        <img src="https://okdiario.com/img/2018/06/09/tarta-de-limon-655x368.jpg" title="Tarta de limon" width="40%">
+      </p>
+      <p>
+        <img src="https://okdiario.com/img/2018/06/09/flan-de-coco-620x349.jpg" alt="Tarta de coco" width="40%"></p>
+      El flan de coco sin az&uacute;car ni leche parece sacado de un libro de magia, pero es perfecto para
+      intolerantes a la
+      lactosa y al huevo. Tiene un sabor dulce y delicado, adem&aacute;s, de ser muy digestivo. Fresquito de la nevera
+      es un
+      aut&eacute;ntico vicio.</p>
     </section>
-
-    <div id="postres" class="col1">
-      <h2>POSTRES</h2>
+    <p><a href="#header">Ir arriba</a></p>
+  </div>
+     <div id="tortas">
+    <h2>TORTAS</h2>
+    <section>Pedazo de Torta de Vainilla con dulce de leche <br> Super esponjoso y riquisimo
       <p>
+        <img src="https://www.cremadelechealqueria.com/sites/alqueria-dev/files/torta_de_cumple_super_facil.png"
+          alt="torta" width="40%" title="Torta"></p>
       <p>
-        Esta tarta de lim&oacute;n light tiene lo mejor de este postre. Para los amantes de esta tarta con un poco de
-        merengue
-        por encima, es una tarta baja en calor&iacute;as.
-      </p>
-      <img src="https://okdiario.com/img/2018/06/09/tarta-de-limon-655x368.jpg" title="Tarta de limon" width="40%">
-      </p>
-      <p>
-        <img src="https://okdiario.com/img/2018/06/09/flan-de-coco-620x349.jpg" alt="Tarta de coco" width="40%">
-      <p>El flan de coco sin az&uacute;car ni leche parece sacado de un libro de magia, pero es perfecto para
-        intolerantes a la
-        lactosa y al huevo. Tiene un sabor dulce y delicado, adem&aacute;s, de ser muy digestivo. Fresquito de la nevera es un
-        aut&eacute;ntico vicio.</p>
-      </p>
-      <p><a href="#arriba">Ir arriba</a></p>
-    </div>
-    <div id="tortas" >
-      <h2>TORTAS</h2>
-      <p class="col1">
-      <p>Pedazo de Torta de Vainilla con dulce de leche <br> Super esponjoso y riquisimo
-      </p>
-      <img src="https://www.cremadelechealqueria.com/sites/alqueria-dev/files/torta_de_cumple_super_facil.png"
-        alt="torta" width="40%" title="Torta">
-      </p>
-      <p class="col2">
         <img src="https://thumbs.dreamstime.com/b/pedazo-de-torta-de-chocolate-con-la-cereza-aislada-27925455.jpg"
           alt="torta" title="Torta de chocolate" width="40%">
-      <p>
-        Pedazo de torta de chocolate con la cereza aislada en el fondo blanco</p>
       </p>
-      <p><a href="#arriba">Ir arriba</a></p>
-    </div>
-    <div id="dulces" class="col1" >
-      <h2>Dulces</h2>
+      Pedazo de torta de chocolate con la cereza aislada en el fondo blanco</p>
+    </section>
+    <p><a href="#header">Ir arriba</a></p>
+  </div>
+    <div id="dulces">
+    <h2>Dulces</h2>
+    <section>Pastafrolas riquisimas con mucho membrillo, hechos de: <br>harina, almid&oacute;n de ma&iacute;z, polvo
+      leudante, az&uacute;car,
+      margarina, sal, esencia de vainilla y ralladura de lim&oacute;n.
       <p>
-      <p>Pastafrolas riquisimas con mucho membrillo, hechos de: <br>harina, almid&oacute;n de ma&iacute;z, polvo leudante, az&uacute;car,
-        margarina, sal, esencia de vainilla y ralladura de lim&oacute;n.</p>
-      <img src="https://elgourmet.s3.amazonaws.com/recetas/cover/pasta_y23ENCzlrMePR1IBXwvT5ucpK6FLjx.png"
-        alt="PASTAFROLA" width="40%" height="auto">
-      </p>
+        <img src="https://elgourmet.s3.amazonaws.com/recetas/cover/pasta_y23ENCzlrMePR1IBXwvT5ucpK6FLjx.png"
+          alt="PASTAFROLA" width="40%" height="auto"> </p>
       <p>
         <img src="https://cdn.cienradios.com/wp-content/uploads/sites/4/2019/10/medialunas.jpg" alt="" width="40%"
-          height="auto">
-      <p>Medialunas con: <br>-Dulce de leche <br>-Membrillo <br>-De su preferencia</p>
-      </p>
-      <p><a href="#arriba">Ir arriba</a></p>
-    </div>
-    <footer style="background-color:#F5EEF8;text-align:center;padding:10px;margin-top:7px;font-size:12px;" id="contacto">
-      <p>Contactanos</p>
-      <p>¡Queremos escucharte!
-        ¡Escrib&iacute;nos o llamanos <br>
-        Tel: 09825689563 <br>Sim&oacute;n Bol&iacute;var-py</p>
-      <p><a href="#arriba">Ir arriba</a></p>
-
-      </footer>
+          height="auto"> </p>
+      Medialunas con: <br>-Dulce de leche <br>-Membrillo <br>-De su preferencia
+    </section>
+    <p><a href="#header">Ir arriba</a></p>
   </div>
+    <footer id="footer">
+    <p>Contactanos <br>
+      ¡Queremos escucharte!
+      ¡Escrib&iacute;nos o llamanos <br>
+      Tel: 09825689563 <br>Sim&oacute;n Bol&iacute;var-py</p>
+  </footer>
 </body>
 
 </html>
